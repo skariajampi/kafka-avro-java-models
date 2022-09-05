@@ -1,0 +1,11 @@
+{
+\"type\": \"record\",
+\"name\":\"Customer\",
+\"namespace\":\"com.skaria.kafka.avro.models\",
+\"fields\":
+             [
+{\"name\":\"firstName\",\"type\":\"string\"},
+{\"name\":\"lastName\",\"type\":\"string\"},
+{\"name\":\"nickName\",\"type\":[\"null\",\"string\"],\"default\":null}
+]
+}
